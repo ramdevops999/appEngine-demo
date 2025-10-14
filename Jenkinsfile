@@ -19,7 +19,7 @@ pipeline {
                     // Create and activate a virtual environment, then install dependencies
                     sh '''
                     # Update apt package list
-                    // sudo apt-get update -y
+                    # sudo apt-get update -y
                     
                     # Install Python3 and development tools if not installed
                     sudo apt-get install -y python3-pip python3-dev python3-venv bash
